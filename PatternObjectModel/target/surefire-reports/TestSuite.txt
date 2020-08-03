@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 19.619 sec <<< FAILURE! - in TestSuite
+logInLogOut(testcases.TC001_LogInLogOut)  Time elapsed: 0.548 sec  <<< FAILURE!
+java.lang.RuntimeException: FAILED
+	at testcases.TC001_LogInLogOut.logInLogOut(TC001_LogInLogOut.java:23)
+
+logInLogOut(testcases.TC001_LogInLogOut)  Time elapsed: 0.47 sec  <<< FAILURE!
+java.lang.RuntimeException: FAILED
+	at testcases.TC001_LogInLogOut.logInLogOut(TC001_LogInLogOut.java:23)
+
