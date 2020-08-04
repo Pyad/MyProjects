@@ -3,6 +3,7 @@ package com.restassur.base;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
@@ -62,5 +63,21 @@ public class RestBasic {
 		
 	}
 	
+	@Test
+	void post1() {
+		
+		String payload ="string";
+		RestAssured.given()
+		.when()
+		.contentType(ContentType.JSON)
+		.when()
+		.body(payload)
+		.post()
+		.then()
+		.statusCode(201);
+		
+		
+		
+	}
 
 }
