@@ -42,7 +42,7 @@ public class RestBasic {
 		RestAssured.given()
 		.queryParam("statuscode", "200")
 		.when()
-		.get("https://www.google.com");
+		.get("https://www.cognizant.com/");
 		
 		re.prettyPrint();
 		
@@ -59,6 +59,24 @@ public class RestBasic {
 		.get("https://www.google.com");
 		
 		re.prettyPrint();
+		
+		
+	}
+	
+	@Test
+	void te4() {
+		
+		
+		RestAssured.given()
+		.log()
+		.all()
+		.when()
+		.get("https://www.cognizant.com/")
+		.then()
+		.log()
+		.all();
+		
+//		re.prettyPrint();
 		
 		
 	}

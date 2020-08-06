@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="web" value="https://www.amazon.in/"/>
+    <classes>
+      <class name="com.balaji.core.utils.UsingTestng">
+        <methods>
+          <include name="pageLaunch1" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="browserLaunch"/>
+          <include name="pageLaunch3"/>
+        </methods>
+      </class> <!-- com.balaji.core.utils.UsingTestng -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
