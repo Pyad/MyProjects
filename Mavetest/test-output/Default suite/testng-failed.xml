@@ -3,15 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.balaji.core.utils.UsingTestng">
+      <class name="com.balaji.core.utils.UsingTestng2">
         <methods>
-          <include name="pageLaunch1" invocation-numbers="0"/>
-          <include name="quit"/>
-          <include name="browserLaunch"/>
-          <include name="pageLaunch5" invocation-numbers="0"/>
-          <include name="pageLaunch3"/>
+          <include name="logintest" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10"/>
         </methods>
-      </class> <!-- com.balaji.core.utils.UsingTestng -->
+      </class> <!-- com.balaji.core.utils.UsingTestng2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
