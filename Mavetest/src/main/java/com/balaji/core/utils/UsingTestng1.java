@@ -21,7 +21,7 @@ public class UsingTestng1 {
 	
 	public static Sheet sheet;
 	public static Row row;
-	public static Map<String, String>[][] map = null;
+	public static LinkedHashMap<String, String> map = null;
 	
 	@Test(dataProvider= "LoginDataProvider")
 	public void logintest(String email, String pwd) {
@@ -37,7 +37,7 @@ public class UsingTestng1 {
 	}
 	
 	@DataProvider(name="LoginDataProvider")
-	public static Map<String, String>[][] readData() throws IOException{
+	public static LinkedHashMap<String, String> readData() throws IOException{
 		
 		
 		String path="path";

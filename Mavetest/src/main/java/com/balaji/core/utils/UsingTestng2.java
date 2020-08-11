@@ -10,6 +10,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.DataFormatter;
@@ -33,11 +35,18 @@ public class UsingTestng2 {
 	public static Cell cell;
 	public static Map<String, String> map = null;
 	public static int rowCount;
+//	private static Logger Log = Logger.getLogger(Logger.class.getName());
 	
 	
-	@Test(dataProvider= "LoginDataProvider")
+//	Log.endTestCase("Selenium_Test_001");
+	
+	
+	@Test(dataProvider= "LoginDataProvider", invocationCount=5)
 	public void logintest(String email, String pwd) {
 		System.out.println(email+" " +pwd);
+//		DOMConfigurator.configure("log4j.xml");
+
+		 
 	}
 	
 //  @Test(dataProvider = "getData")
@@ -49,8 +58,10 @@ public class UsingTestng2 {
 
   @DataProvider(name = "LoginDataProvider")
   public static Object[][] getSheet() {
+	  
 		
-		
+//	  Log.startTestCase("Selenium_Test_001");
+//	  Log.info("entered getSheet");
 
 	  Object[][] data = null ;
 

@@ -2,16 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="web" value="https://www.amazon.in/"/>
     <classes>
-      <class name="com.balaji.core.utils.UsingTestng">
+      <class name="com.balaji.core.utils.UsingTestng2">
         <methods>
-          <include name="pageLaunch1" invocation-numbers="0"/>
-          <include name="quit"/>
-          <include name="browserLaunch"/>
-          <include name="pageLaunch3"/>
+          <include name="logintest"/>
         </methods>
-      </class> <!-- com.balaji.core.utils.UsingTestng -->
+      </class> <!-- com.balaji.core.utils.UsingTestng2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

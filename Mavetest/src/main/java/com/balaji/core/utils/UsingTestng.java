@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -25,12 +27,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class UsingTestng {
 
+//	BasicConfigurator.configure();
+	private static Logger Log = Logger.getLogger(Logger.class.getName());
 	public static WebDriver driver;
 		// TODO Auto-generated method stub
 		@BeforeTest
 		public static void browserLaunch() {
 			
-		
+		Log.info("BrowserLaunch");
 			WebDriverManager.chromedriver().setup();
 			
 			
@@ -46,6 +50,8 @@ public class UsingTestng {
 		
 		@Test(priority=2)
 		public static void pageLaunch() {
+			
+			Log.info("PageLaunch");
 			
 			driver.get("https://www.google.com");
 			((JavascriptExecutor) driver).executeScript("window.open()");
@@ -70,7 +76,7 @@ public class UsingTestng {
 			
 		}
 		
-		@Test(priority=4)
+		@Test(priority=4, enabled=false)
 		@Parameters({"web"})
 		public static void pageLaunch5(String value) {
 			
@@ -89,8 +95,11 @@ public class UsingTestng {
 			
 		}
 		
-		@Test(priority=1, groups = "q")
+		@Test(priority=1, groups = "q", invocationCount=5)
 		public static void pageLaunch2() {
+			
+//			Log.getName();
+			Log.info("pageLaunch2");
 			
 			driver.get("https://v1.hdfcbank.com/assets/popuppages/netbanking.htm");
 			System.out.println(driver.getTitle());
