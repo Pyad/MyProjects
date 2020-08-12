@@ -7,9 +7,8 @@ import org.apache.log4j.Logger;
 public class Log4jdemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		BasicConfigurator.configure();
+//		BasicConfigurator.configure();
 		final Logger log = LogManager.getLogger(Log4jdemo.class);
 
         System.err.println("Initialisied Logger");
