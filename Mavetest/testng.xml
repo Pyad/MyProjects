@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="classes" thread-count="2">
+<suite name="Suite" parallel="classes" thread-count="3">
 
   <test thread-count="5" name="Test">
   <parameter name="web" value="https://www.amazon.in/" />
@@ -8,6 +8,9 @@
       <class name="com.balaji.core.utils.UsingTestng"/>
      
       <class name="com.balaji.core.utils.UsingTestng2"/>
+      
+      
+      <class name="com.balaji.core.utils.ExtentReportwithTestng"/>
       
     </classes>
   </test> <!-- Test -->

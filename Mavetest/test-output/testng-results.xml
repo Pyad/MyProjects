@@ -1,48 +1,948 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
+<testng-results skipped="0" failed="0" ignored="3" total="66" passed="63">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21624" started-at="2020-08-11T11:34:52Z" finished-at="2020-08-11T11:35:14Z">
+  <suite name="Suite" duration-ms="58003" started-at="2020-08-11T15:10:15Z" finished-at="2020-08-11T15:11:13Z">
     <groups>
       <group name="q">
-        <method signature="UsingTestng.pageLaunch2()[pri:1, instance:com.balaji.core.utils.UsingTestng@43814d18]" name="pageLaunch2" class="com.balaji.core.utils.UsingTestng"/>
+        <method signature="UsingTestng.pageLaunch2()[pri:1, instance:com.balaji.core.utils.UsingTestng@3a883ce7]" name="pageLaunch2" class="com.balaji.core.utils.UsingTestng"/>
       </group> <!-- q -->
     </groups>
-    <test name="Default test" duration-ms="21624" started-at="2020-08-11T11:34:52Z" finished-at="2020-08-11T11:35:14Z">
-      <class name="com.balaji.core.utils.UsingTestng">
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:com.balaji.core.utils.UsingTestng@43814d18]" name="browserLaunch" is-config="true" duration-ms="5998" started-at="2020-08-11T11:34:52Z" finished-at="2020-08-11T11:34:58Z">
+    <test name="Test" duration-ms="58003" started-at="2020-08-11T15:10:15Z" finished-at="2020-08-11T15:11:13Z">
+      <class name="com.balaji.core.utils.ExtentReportwithTestng">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.balaji.core.utils.ExtentReportwithTestng@cd2dae5]" name="setup" is-config="true" duration-ms="5774" started-at="2020-08-11T15:10:09Z" finished-at="2020-08-11T15:10:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserLaunch -->
-        <test-method status="PASS" signature="pageLaunch2()[pri:1, instance:com.balaji.core.utils.UsingTestng@43814d18]" name="pageLaunch2" duration-ms="2136" started-at="2020-08-11T11:34:58Z" finished-at="2020-08-11T11:35:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageLaunch2 -->
-        <test-method status="PASS" signature="pageLaunch2()[pri:1, instance:com.balaji.core.utils.UsingTestng@43814d18]" name="pageLaunch2" duration-ms="1679" started-at="2020-08-11T11:35:00Z" finished-at="2020-08-11T11:35:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageLaunch2 -->
-        <test-method status="PASS" signature="pageLaunch2()[pri:1, instance:com.balaji.core.utils.UsingTestng@43814d18]" name="pageLaunch2" duration-ms="400" started-at="2020-08-11T11:35:02Z" finished-at="2020-08-11T11:35:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageLaunch2 -->
-        <test-method status="PASS" signature="pageLaunch2()[pri:1, instance:com.balaji.core.utils.UsingTestng@43814d18]" name="pageLaunch2" duration-ms="718" started-at="2020-08-11T11:35:02Z" finished-at="2020-08-11T11:35:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageLaunch2 -->
-        <test-method status="PASS" signature="pageLaunch2()[pri:1, instance:com.balaji.core.utils.UsingTestng@43814d18]" name="pageLaunch2" duration-ms="530" started-at="2020-08-11T11:35:03Z" finished-at="2020-08-11T11:35:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageLaunch2 -->
-        <test-method status="PASS" signature="pageLaunch()[pri:2, instance:com.balaji.core.utils.UsingTestng@43814d18]" name="pageLaunch" duration-ms="9461" started-at="2020-08-11T11:35:04Z" finished-at="2020-08-11T11:35:13Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="pageLaunch()[pri:0, instance:com.balaji.core.utils.ExtentReportwithTestng@cd2dae5]" name="pageLaunch" duration-ms="14597" started-at="2020-08-11T15:10:19Z" finished-at="2020-08-11T15:10:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageLaunch -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.balaji.core.utils.UsingTestng@43814d18]" name="quit" is-config="true" duration-ms="656" started-at="2020-08-11T11:35:13Z" finished-at="2020-08-11T11:35:14Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.balaji.core.utils.ExtentReportwithTestng@cd2dae5]" name="test" duration-ms="10" started-at="2020-08-11T15:10:33Z" finished-at="2020-08-11T15:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.balaji.core.utils.ExtentReportwithTestng@cd2dae5]" name="teardown" is-config="true" duration-ms="1120" started-at="2020-08-11T15:11:13Z" finished-at="2020-08-11T15:11:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.balaji.core.utils.ExtentReportwithTestng -->
+      <class name="com.balaji.core.utils.UsingTestng2">
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="3" started-at="2020-08-11T15:10:19Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="5" started-at="2020-08-11T15:10:19Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="3" started-at="2020-08-11T15:10:19Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:19Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:19Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="3" started-at="2020-08-11T15:10:19Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:19Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:19Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="3" started-at="2020-08-11T15:10:19Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="3" started-at="2020-08-11T15:10:19Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:19Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="10" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="1" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="1" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="1" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="1" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="1" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="1" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="1" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="1" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="4" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="3" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="3" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="3" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="3" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="1" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="1" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="1" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="1" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="1" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="1" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="3" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.balaji.core.utils.UsingTestng2@4973813a]" name="logintest" duration-ms="2" started-at="2020-08-11T15:10:20Z" data-provider="LoginDataProvider" finished-at="2020-08-11T15:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.balaji.core.utils.UsingTestng2 -->
+      <class name="com.balaji.core.utils.UsingTestng">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:com.balaji.core.utils.UsingTestng@3a883ce7]" name="browserLaunch" is-config="true" duration-ms="4002" started-at="2020-08-11T15:10:15Z" finished-at="2020-08-11T15:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method status="PASS" signature="pageLaunch2()[pri:1, instance:com.balaji.core.utils.UsingTestng@3a883ce7]" name="pageLaunch2" duration-ms="8870" started-at="2020-08-11T15:10:33Z" finished-at="2020-08-11T15:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLaunch2 -->
+        <test-method status="PASS" signature="pageLaunch2()[pri:1, instance:com.balaji.core.utils.UsingTestng@3a883ce7]" name="pageLaunch2" duration-ms="425" started-at="2020-08-11T15:10:42Z" finished-at="2020-08-11T15:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLaunch2 -->
+        <test-method status="PASS" signature="pageLaunch2()[pri:1, instance:com.balaji.core.utils.UsingTestng@3a883ce7]" name="pageLaunch2" duration-ms="474" started-at="2020-08-11T15:10:43Z" finished-at="2020-08-11T15:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLaunch2 -->
+        <test-method status="PASS" signature="pageLaunch2()[pri:1, instance:com.balaji.core.utils.UsingTestng@3a883ce7]" name="pageLaunch2" duration-ms="705" started-at="2020-08-11T15:10:43Z" finished-at="2020-08-11T15:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLaunch2 -->
+        <test-method status="PASS" signature="pageLaunch2()[pri:1, instance:com.balaji.core.utils.UsingTestng@3a883ce7]" name="pageLaunch2" duration-ms="1680" started-at="2020-08-11T15:10:44Z" finished-at="2020-08-11T15:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLaunch2 -->
+        <test-method status="PASS" signature="pageLaunch()[pri:2, instance:com.balaji.core.utils.UsingTestng@3a883ce7]" name="pageLaunch" duration-ms="25439" started-at="2020-08-11T15:10:45Z" finished-at="2020-08-11T15:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLaunch -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.balaji.core.utils.UsingTestng@3a883ce7]" name="quit" is-config="true" duration-ms="1749" started-at="2020-08-11T15:11:11Z" finished-at="2020-08-11T15:11:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.balaji.core.utils.UsingTestng -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
