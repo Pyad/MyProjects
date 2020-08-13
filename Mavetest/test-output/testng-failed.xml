@@ -2,16 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
-    <listener class-name="com.balaji.core.utils.Transformer"/>
+    <listener class-name="com.balaji.core.utils.Listenerdemo"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.balaji.core.utils.TestCase2">
+      <class name="com.balaji.core.utils.TestCase">
         <methods>
-          <include name="testcase1"/>
           <include name="testcase2"/>
+          <include name="testcase1"/>
         </methods>
-      </class> <!-- com.balaji.core.utils.TestCase2 -->
+      </class> <!-- com.balaji.core.utils.TestCase -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
