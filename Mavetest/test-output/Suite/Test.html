@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>63/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/8</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Aug 11 20:40:15 IST 2020</td>
+<td>Started on:</td><td>Thu Aug 13 11:44:56 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>58 seconds (58003 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (120 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,328 +67,431 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 1</td>
-<td></td>
+<td title='com.balaji.core.utils.TestCase2.testcase1()'><b>testcase1</b><br>Test class: com.balaji.core.utils.TestCase2</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase1(TestCase2.java:11)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1952779858", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1952779858'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at com.balaji.core.utils.TestCase2.testcase1(TestCase2.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
+<td>com.balaji.core.utils.TestCase2@57fffcd7</td></tr>
 <tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 2</td>
-<td></td>
+<td title='com.balaji.core.utils.TestCase2.testcase2()'><b>testcase2</b><br>Test class: com.balaji.core.utils.TestCase2</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase2(TestCase2.java:18)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace764372388", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace764372388'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at com.balaji.core.utils.TestCase2.testcase2(TestCase2.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
+<td>com.balaji.core.utils.TestCase2@57fffcd7</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 3</td>
-<td></td>
+<td title='com.balaji.core.utils.TestCase2.testcase1()'><b>testcase1</b><br>Test class: com.balaji.core.utils.TestCase2</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase1(TestCase2.java:11)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace489279267", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace489279267'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at com.balaji.core.utils.TestCase2.testcase1(TestCase2.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
+<td>com.balaji.core.utils.TestCase2@57fffcd7</td></tr>
 <tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 4</td>
-<td></td>
+<td title='com.balaji.core.utils.TestCase2.testcase1()'><b>testcase1</b><br>Test class: com.balaji.core.utils.TestCase2</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase1(TestCase2.java:11)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace377478451", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace377478451'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at com.balaji.core.utils.TestCase2.testcase1(TestCase2.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
+<td>com.balaji.core.utils.TestCase2@57fffcd7</td></tr>
 <tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 5</td>
-<td></td>
+<td title='com.balaji.core.utils.TestCase2.testcase1()'><b>testcase1</b><br>Test class: com.balaji.core.utils.TestCase2</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase1(TestCase2.java:11)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1301664418", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1301664418'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at com.balaji.core.utils.TestCase2.testcase1(TestCase2.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
+<td>com.balaji.core.utils.TestCase2@57fffcd7</td></tr>
 <tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 6</td>
-<td></td>
+<td title='com.balaji.core.utils.TestCase2.testcase1()'><b>testcase1</b><br>Test class: com.balaji.core.utils.TestCase2</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase1(TestCase2.java:11)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace990416209", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace990416209'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at com.balaji.core.utils.TestCase2.testcase1(TestCase2.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
+<td>com.balaji.core.utils.TestCase2@57fffcd7</td></tr>
 <tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 7</td>
-<td></td>
+<td title='com.balaji.core.utils.TestCase2.testcase2()'><b>testcase2</b><br>Test class: com.balaji.core.utils.TestCase2</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase2(TestCase2.java:18)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1791868405", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1791868405'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at com.balaji.core.utils.TestCase2.testcase2(TestCase2.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
+<td>com.balaji.core.utils.TestCase2@57fffcd7</td></tr>
 <tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 8</td>
-<td></td>
+<td title='com.balaji.core.utils.TestCase2.testcase2()'><b>testcase2</b><br>Test class: com.balaji.core.utils.TestCase2</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase2(TestCase2.java:18)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace391618063", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace391618063'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at com.balaji.core.utils.TestCase2.testcase2(TestCase2.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
+<td>com.balaji.core.utils.TestCase2@57fffcd7</td></tr>
 <tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 9</td>
-<td></td>
+<td title='com.balaji.core.utils.TestCase2.testcase2()'><b>testcase2</b><br>Test class: com.balaji.core.utils.TestCase2</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase2(TestCase2.java:18)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace57748372", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace57748372'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at com.balaji.core.utils.TestCase2.testcase2(TestCase2.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
+<td>com.balaji.core.utils.TestCase2@57fffcd7</td></tr>
 <tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 10</td>
-<td></td>
+<td title='com.balaji.core.utils.TestCase2.testcase2()'><b>testcase2</b><br>Test class: com.balaji.core.utils.TestCase2</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase2(TestCase2.java:18)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace54495403", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace54495403'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at com.balaji.core.utils.TestCase2.testcase2(TestCase2.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 11</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 1</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 2</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 3</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 4</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 5</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 6</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 7</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 8</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 9</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 10</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 11</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 1</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 2</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 3</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 4</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 5</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 6</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 7</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 8</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 9</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 10</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 11</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 1</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 2</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 3</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 4</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 5</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 6</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 7</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 8</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 9</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 10</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 11</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 1</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 2</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 3</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 4</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 5</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 6</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 7</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 8</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 9</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 10</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng2.logintest()'><b>logintest</b><br>Test class: com.balaji.core.utils.UsingTestng2<br>Parameters: amaz, 11</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng2@4973813a</td></tr>
-<tr>
-<td title='com.balaji.core.utils.ExtentReportwithTestng.pageLaunch()'><b>pageLaunch</b><br>Test class: com.balaji.core.utils.ExtentReportwithTestng</td>
-<td></td>
-<td>14</td>
-<td>com.balaji.core.utils.ExtentReportwithTestng@cd2dae5</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng.pageLaunch()'><b>pageLaunch</b><br>Test class: com.balaji.core.utils.UsingTestng</td>
-<td></td>
-<td>25</td>
-<td>com.balaji.core.utils.UsingTestng@3a883ce7</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng.pageLaunch2()'><b>pageLaunch2</b><br>Test class: com.balaji.core.utils.UsingTestng</td>
-<td></td>
-<td>8</td>
-<td>com.balaji.core.utils.UsingTestng@3a883ce7</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng.pageLaunch2()'><b>pageLaunch2</b><br>Test class: com.balaji.core.utils.UsingTestng</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng@3a883ce7</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng.pageLaunch2()'><b>pageLaunch2</b><br>Test class: com.balaji.core.utils.UsingTestng</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng@3a883ce7</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng.pageLaunch2()'><b>pageLaunch2</b><br>Test class: com.balaji.core.utils.UsingTestng</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.UsingTestng@3a883ce7</td></tr>
-<tr>
-<td title='com.balaji.core.utils.UsingTestng.pageLaunch2()'><b>pageLaunch2</b><br>Test class: com.balaji.core.utils.UsingTestng</td>
-<td></td>
-<td>1</td>
-<td>com.balaji.core.utils.UsingTestng@3a883ce7</td></tr>
-<tr>
-<td title='com.balaji.core.utils.ExtentReportwithTestng.test()'><b>test</b><br>Test class: com.balaji.core.utils.ExtentReportwithTestng</td>
-<td></td>
-<td>0</td>
-<td>com.balaji.core.utils.ExtentReportwithTestng@cd2dae5</td></tr>
+<td>com.balaji.core.utils.TestCase2@57fffcd7</td></tr>
 </table><p>
 </body>
 </html>
