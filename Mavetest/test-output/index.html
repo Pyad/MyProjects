@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\DELL\git\MyProjects\Mavetest\testng.xml</span>
+                    <span>C:\Users\DELL\git\MyProjects\Mavetest\testng3.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-Suite">
-                    <span>1 group</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,331 +91,75 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">63 methods,   63 passed</span>
+                    <span class="method-stats">10 methods, 2 failed,  8 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Suite">
+                    <div class="method-list-content failed suite-Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 10)">logintest(amaz, 10)</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.TestCase2" hash-for-method="testcase1">testcase1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 10)">logintest(amaz, 10)</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.TestCase2" hash-for-method="testcase2">testcase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.TestCase2" hash-for-method="testcase1">testcase1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 3)">logintest(amaz, 3)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.TestCase2" hash-for-method="testcase1">testcase1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 8)">logintest(amaz, 8)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.TestCase2" hash-for-method="testcase1">testcase1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 2)">logintest(amaz, 2)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.TestCase2" hash-for-method="testcase1">testcase1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 9)">logintest(amaz, 9)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.TestCase2" hash-for-method="testcase2">testcase2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 5)">logintest(amaz, 5)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.TestCase2" hash-for-method="testcase2">testcase2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 7)">logintest(amaz, 7)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.TestCase2" hash-for-method="testcase2">testcase2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 5)">logintest(amaz, 5)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.TestCase2" hash-for-method="testcase2">testcase2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 2)">logintest(amaz, 2)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 5)">logintest(amaz, 5)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 11)">logintest(amaz, 11)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 2)">logintest(amaz, 2)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 9)">logintest(amaz, 9)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 3)">logintest(amaz, 3)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 10)">logintest(amaz, 10)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 11)">logintest(amaz, 11)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 1)">logintest(amaz, 1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 5)">logintest(amaz, 5)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 6)">logintest(amaz, 6)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 6)">logintest(amaz, 6)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 4)">logintest(amaz, 4)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 4)">logintest(amaz, 4)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 2)">logintest(amaz, 2)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 6)">logintest(amaz, 6)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 9)">logintest(amaz, 9)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 7)">logintest(amaz, 7)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 1)">logintest(amaz, 1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 8)">logintest(amaz, 8)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 10)">logintest(amaz, 10)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 1)">logintest(amaz, 1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 6)">logintest(amaz, 6)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 4)">logintest(amaz, 4)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 3)">logintest(amaz, 3)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 3)">logintest(amaz, 3)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 9)">logintest(amaz, 9)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 11)">logintest(amaz, 11)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 4)">logintest(amaz, 4)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 10)">logintest(amaz, 10)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 2)">logintest(amaz, 2)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 9)">logintest(amaz, 9)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 7)">logintest(amaz, 7)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 8)">logintest(amaz, 8)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 8)">logintest(amaz, 8)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 11)">logintest(amaz, 11)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 8)">logintest(amaz, 8)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 6)">logintest(amaz, 6)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 1)">logintest(amaz, 1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 3)">logintest(amaz, 3)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 4)">logintest(amaz, 4)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 7)">logintest(amaz, 7)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 7)">logintest(amaz, 7)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 1)">logintest(amaz, 1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 11)">logintest(amaz, 11)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng2" hash-for-method="logintest(amaz, 5)">logintest(amaz, 5)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.ExtentReportwithTestng" hash-for-method="pageLaunch">pageLaunch</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng" hash-for-method="pageLaunch">pageLaunch</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng" hash-for-method="pageLaunch2">pageLaunch2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng" hash-for-method="pageLaunch2">pageLaunch2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng" hash-for-method="pageLaunch2">pageLaunch2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng" hash-for-method="pageLaunch2">pageLaunch2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.UsingTestng" hash-for-method="pageLaunch2">pageLaunch2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.balaji.core.utils.ExtentReportwithTestng" hash-for-method="test">test</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -427,542 +171,148 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.balaji.core.utils.ExtentReportwithTestng</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.balaji.core.utils.TestCase2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="pageLaunch">
-                  </a> <!-- pageLaunch -->
-                  <span class="method-name">pageLaunch</span>
+                  <a name="testcase1">
+                  </a> <!-- testcase1 -->
+                  <span class="method-name">testcase1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase1(TestCase2.java:11)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test">
-                  </a> <!-- test -->
-                  <span class="method-name">test</span>
+                  <a name="testcase2">
+                  </a> <!-- testcase2 -->
+                  <span class="method-name">testcase2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase2(TestCase2.java:18)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.balaji.core.utils.UsingTestng</span>
+              <img src="skipped.png"/>
+              <span class="class-name">com.balaji.core.utils.TestCase2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="pageLaunch">
-                  </a> <!-- pageLaunch -->
-                  <span class="method-name">pageLaunch</span>
+                  <a name="testcase1">
+                  </a> <!-- testcase1 -->
+                  <span class="method-name">testcase1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase1(TestCase2.java:11)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="pageLaunch2">
-                  </a> <!-- pageLaunch2 -->
-                  <span class="method-name">pageLaunch2</span>
+                  <a name="testcase1">
+                  </a> <!-- testcase1 -->
+                  <span class="method-name">testcase1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase1(TestCase2.java:11)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="pageLaunch2">
-                  </a> <!-- pageLaunch2 -->
-                  <span class="method-name">pageLaunch2</span>
+                  <a name="testcase1">
+                  </a> <!-- testcase1 -->
+                  <span class="method-name">testcase1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase1(TestCase2.java:11)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="pageLaunch2">
-                  </a> <!-- pageLaunch2 -->
-                  <span class="method-name">pageLaunch2</span>
+                  <a name="testcase1">
+                  </a> <!-- testcase1 -->
+                  <span class="method-name">testcase1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase1(TestCase2.java:11)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="pageLaunch2">
-                  </a> <!-- pageLaunch2 -->
-                  <span class="method-name">pageLaunch2</span>
+                  <a name="testcase2">
+                  </a> <!-- testcase2 -->
+                  <span class="method-name">testcase2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase2(TestCase2.java:18)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="pageLaunch2">
-                  </a> <!-- pageLaunch2 -->
-                  <span class="method-name">pageLaunch2</span>
+                  <a name="testcase2">
+                  </a> <!-- testcase2 -->
+                  <span class="method-name">testcase2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase2(TestCase2.java:18)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase2">
+                  </a> <!-- testcase2 -->
+                  <span class="method-name">testcase2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase2(TestCase2.java:18)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase2">
+                  </a> <!-- testcase2 -->
+                  <span class="method-name">testcase2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.balaji.core.utils.TestCase2.testcase2(TestCase2.java:18)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.balaji.core.utils.UsingTestng2</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 10)">
-                  </a> <!-- logintest(amaz, 10) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 10)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 10)">
-                  </a> <!-- logintest(amaz, 10) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 10)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 3)">
-                  </a> <!-- logintest(amaz, 3) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 3)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 8)">
-                  </a> <!-- logintest(amaz, 8) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 8)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 2)">
-                  </a> <!-- logintest(amaz, 2) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 9)">
-                  </a> <!-- logintest(amaz, 9) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 9)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 5)">
-                  </a> <!-- logintest(amaz, 5) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 5)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 7)">
-                  </a> <!-- logintest(amaz, 7) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 7)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 5)">
-                  </a> <!-- logintest(amaz, 5) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 5)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 2)">
-                  </a> <!-- logintest(amaz, 2) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 5)">
-                  </a> <!-- logintest(amaz, 5) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 5)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 11)">
-                  </a> <!-- logintest(amaz, 11) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 11)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 2)">
-                  </a> <!-- logintest(amaz, 2) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 9)">
-                  </a> <!-- logintest(amaz, 9) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 9)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 3)">
-                  </a> <!-- logintest(amaz, 3) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 3)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 10)">
-                  </a> <!-- logintest(amaz, 10) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 10)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 11)">
-                  </a> <!-- logintest(amaz, 11) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 11)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 1)">
-                  </a> <!-- logintest(amaz, 1) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 1)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 5)">
-                  </a> <!-- logintest(amaz, 5) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 5)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 6)">
-                  </a> <!-- logintest(amaz, 6) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 6)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 6)">
-                  </a> <!-- logintest(amaz, 6) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 6)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 4)">
-                  </a> <!-- logintest(amaz, 4) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 4)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 4)">
-                  </a> <!-- logintest(amaz, 4) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 4)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 2)">
-                  </a> <!-- logintest(amaz, 2) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 6)">
-                  </a> <!-- logintest(amaz, 6) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 6)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 9)">
-                  </a> <!-- logintest(amaz, 9) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 9)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 7)">
-                  </a> <!-- logintest(amaz, 7) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 7)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 1)">
-                  </a> <!-- logintest(amaz, 1) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 1)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 8)">
-                  </a> <!-- logintest(amaz, 8) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 8)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 10)">
-                  </a> <!-- logintest(amaz, 10) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 10)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 1)">
-                  </a> <!-- logintest(amaz, 1) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 1)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 6)">
-                  </a> <!-- logintest(amaz, 6) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 6)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 4)">
-                  </a> <!-- logintest(amaz, 4) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 4)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 3)">
-                  </a> <!-- logintest(amaz, 3) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 3)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 3)">
-                  </a> <!-- logintest(amaz, 3) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 3)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 9)">
-                  </a> <!-- logintest(amaz, 9) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 9)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 11)">
-                  </a> <!-- logintest(amaz, 11) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 11)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 4)">
-                  </a> <!-- logintest(amaz, 4) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 4)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 10)">
-                  </a> <!-- logintest(amaz, 10) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 10)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 2)">
-                  </a> <!-- logintest(amaz, 2) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 9)">
-                  </a> <!-- logintest(amaz, 9) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 9)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 7)">
-                  </a> <!-- logintest(amaz, 7) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 7)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 8)">
-                  </a> <!-- logintest(amaz, 8) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 8)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 8)">
-                  </a> <!-- logintest(amaz, 8) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 8)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 11)">
-                  </a> <!-- logintest(amaz, 11) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 11)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 8)">
-                  </a> <!-- logintest(amaz, 8) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 8)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 6)">
-                  </a> <!-- logintest(amaz, 6) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 6)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 1)">
-                  </a> <!-- logintest(amaz, 1) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 1)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 3)">
-                  </a> <!-- logintest(amaz, 3) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 3)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 4)">
-                  </a> <!-- logintest(amaz, 4) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 4)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 7)">
-                  </a> <!-- logintest(amaz, 7) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 7)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 7)">
-                  </a> <!-- logintest(amaz, 7) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 7)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 1)">
-                  </a> <!-- logintest(amaz, 1) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 1)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 11)">
-                  </a> <!-- logintest(amaz, 11) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 11)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logintest(amaz, 5)">
-                  </a> <!-- logintest(amaz, 5) -->
-                  <span class="method-name">logintest</span>
-                  <span class="parameters">(amaz, 5)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\DELL\git\MyProjects\Mavetest\testng.xml</span>
+            <span class="header-content">C:\Users\DELL\git\MyProjects\Mavetest\testng3.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;classes&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; parallel=&quot;classes&quot;&gt;
-    &lt;parameter name=&quot;web&quot; value=&quot;https://www.amazon.in/&quot;/&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.balaji.core.utils.Transformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.balaji.core.utils.UsingTestng&quot;/&gt;
-      &lt;class name=&quot;com.balaji.core.utils.UsingTestng2&quot;/&gt;
-      &lt;class name=&quot;com.balaji.core.utils.ExtentReportwithTestng&quot;/&gt;
+      &lt;class name=&quot;com.balaji.core.utils.TestCase2&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -976,7 +326,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -986,14 +336,6 @@
             <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">q</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">pageLaunch2</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -1010,264 +352,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(63);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'pageLaunch')
-data.setCell(0, 2, 'com.balaji.core.utils.UsingTestng')
-data.setCell(0, 3, 25439);
+data.setCell(0, 1, 'testcase1')
+data.setCell(0, 2, 'com.balaji.core.utils.TestCase2')
+data.setCell(0, 3, 15);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'pageLaunch')
-data.setCell(1, 2, 'com.balaji.core.utils.ExtentReportwithTestng')
-data.setCell(1, 3, 14597);
+data.setCell(1, 1, 'testcase2')
+data.setCell(1, 2, 'com.balaji.core.utils.TestCase2')
+data.setCell(1, 3, 5);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'pageLaunch2')
-data.setCell(2, 2, 'com.balaji.core.utils.UsingTestng')
-data.setCell(2, 3, 8870);
+data.setCell(2, 1, 'testcase2')
+data.setCell(2, 2, 'com.balaji.core.utils.TestCase2')
+data.setCell(2, 3, 5);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'pageLaunch2')
-data.setCell(3, 2, 'com.balaji.core.utils.UsingTestng')
-data.setCell(3, 3, 1680);
+data.setCell(3, 1, 'testcase1')
+data.setCell(3, 2, 'com.balaji.core.utils.TestCase2')
+data.setCell(3, 3, 5);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'pageLaunch2')
-data.setCell(4, 2, 'com.balaji.core.utils.UsingTestng')
-data.setCell(4, 3, 705);
+data.setCell(4, 1, 'testcase2')
+data.setCell(4, 2, 'com.balaji.core.utils.TestCase2')
+data.setCell(4, 3, 5);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'pageLaunch2')
-data.setCell(5, 2, 'com.balaji.core.utils.UsingTestng')
-data.setCell(5, 3, 474);
+data.setCell(5, 1, 'testcase1')
+data.setCell(5, 2, 'com.balaji.core.utils.TestCase2')
+data.setCell(5, 3, 5);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'pageLaunch2')
-data.setCell(6, 2, 'com.balaji.core.utils.UsingTestng')
-data.setCell(6, 3, 425);
+data.setCell(6, 1, 'testcase1')
+data.setCell(6, 2, 'com.balaji.core.utils.TestCase2')
+data.setCell(6, 3, 5);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'logintest')
-data.setCell(7, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(7, 3, 10);
+data.setCell(7, 1, 'testcase1')
+data.setCell(7, 2, 'com.balaji.core.utils.TestCase2')
+data.setCell(7, 3, 0);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'test')
-data.setCell(8, 2, 'com.balaji.core.utils.ExtentReportwithTestng')
-data.setCell(8, 3, 10);
+data.setCell(8, 1, 'testcase2')
+data.setCell(8, 2, 'com.balaji.core.utils.TestCase2')
+data.setCell(8, 3, 0);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'logintest')
-data.setCell(9, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(9, 3, 5);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'logintest')
-data.setCell(10, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(10, 3, 4);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'logintest')
-data.setCell(11, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(11, 3, 3);
-data.setCell(12, 0, 12)
-data.setCell(12, 1, 'logintest')
-data.setCell(12, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(12, 3, 3);
-data.setCell(13, 0, 13)
-data.setCell(13, 1, 'logintest')
-data.setCell(13, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(13, 3, 3);
-data.setCell(14, 0, 14)
-data.setCell(14, 1, 'logintest')
-data.setCell(14, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(14, 3, 3);
-data.setCell(15, 0, 15)
-data.setCell(15, 1, 'logintest')
-data.setCell(15, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(15, 3, 3);
-data.setCell(16, 0, 16)
-data.setCell(16, 1, 'logintest')
-data.setCell(16, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(16, 3, 3);
-data.setCell(17, 0, 17)
-data.setCell(17, 1, 'logintest')
-data.setCell(17, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(17, 3, 3);
-data.setCell(18, 0, 18)
-data.setCell(18, 1, 'logintest')
-data.setCell(18, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(18, 3, 3);
-data.setCell(19, 0, 19)
-data.setCell(19, 1, 'logintest')
-data.setCell(19, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(19, 3, 3);
-data.setCell(20, 0, 20)
-data.setCell(20, 1, 'logintest')
-data.setCell(20, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(20, 3, 3);
-data.setCell(21, 0, 21)
-data.setCell(21, 1, 'logintest')
-data.setCell(21, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(21, 3, 2);
-data.setCell(22, 0, 22)
-data.setCell(22, 1, 'logintest')
-data.setCell(22, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(22, 3, 2);
-data.setCell(23, 0, 23)
-data.setCell(23, 1, 'logintest')
-data.setCell(23, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(23, 3, 2);
-data.setCell(24, 0, 24)
-data.setCell(24, 1, 'logintest')
-data.setCell(24, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(24, 3, 2);
-data.setCell(25, 0, 25)
-data.setCell(25, 1, 'logintest')
-data.setCell(25, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(25, 3, 2);
-data.setCell(26, 0, 26)
-data.setCell(26, 1, 'logintest')
-data.setCell(26, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(26, 3, 2);
-data.setCell(27, 0, 27)
-data.setCell(27, 1, 'logintest')
-data.setCell(27, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(27, 3, 2);
-data.setCell(28, 0, 28)
-data.setCell(28, 1, 'logintest')
-data.setCell(28, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(28, 3, 2);
-data.setCell(29, 0, 29)
-data.setCell(29, 1, 'logintest')
-data.setCell(29, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(29, 3, 2);
-data.setCell(30, 0, 30)
-data.setCell(30, 1, 'logintest')
-data.setCell(30, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(30, 3, 2);
-data.setCell(31, 0, 31)
-data.setCell(31, 1, 'logintest')
-data.setCell(31, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(31, 3, 2);
-data.setCell(32, 0, 32)
-data.setCell(32, 1, 'logintest')
-data.setCell(32, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(32, 3, 2);
-data.setCell(33, 0, 33)
-data.setCell(33, 1, 'logintest')
-data.setCell(33, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(33, 3, 2);
-data.setCell(34, 0, 34)
-data.setCell(34, 1, 'logintest')
-data.setCell(34, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(34, 3, 2);
-data.setCell(35, 0, 35)
-data.setCell(35, 1, 'logintest')
-data.setCell(35, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(35, 3, 2);
-data.setCell(36, 0, 36)
-data.setCell(36, 1, 'logintest')
-data.setCell(36, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(36, 3, 2);
-data.setCell(37, 0, 37)
-data.setCell(37, 1, 'logintest')
-data.setCell(37, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(37, 3, 2);
-data.setCell(38, 0, 38)
-data.setCell(38, 1, 'logintest')
-data.setCell(38, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(38, 3, 2);
-data.setCell(39, 0, 39)
-data.setCell(39, 1, 'logintest')
-data.setCell(39, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(39, 3, 2);
-data.setCell(40, 0, 40)
-data.setCell(40, 1, 'logintest')
-data.setCell(40, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(40, 3, 2);
-data.setCell(41, 0, 41)
-data.setCell(41, 1, 'logintest')
-data.setCell(41, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(41, 3, 2);
-data.setCell(42, 0, 42)
-data.setCell(42, 1, 'logintest')
-data.setCell(42, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(42, 3, 2);
-data.setCell(43, 0, 43)
-data.setCell(43, 1, 'logintest')
-data.setCell(43, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(43, 3, 2);
-data.setCell(44, 0, 44)
-data.setCell(44, 1, 'logintest')
-data.setCell(44, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(44, 3, 2);
-data.setCell(45, 0, 45)
-data.setCell(45, 1, 'logintest')
-data.setCell(45, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(45, 3, 2);
-data.setCell(46, 0, 46)
-data.setCell(46, 1, 'logintest')
-data.setCell(46, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(46, 3, 2);
-data.setCell(47, 0, 47)
-data.setCell(47, 1, 'logintest')
-data.setCell(47, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(47, 3, 2);
-data.setCell(48, 0, 48)
-data.setCell(48, 1, 'logintest')
-data.setCell(48, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(48, 3, 2);
-data.setCell(49, 0, 49)
-data.setCell(49, 1, 'logintest')
-data.setCell(49, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(49, 3, 1);
-data.setCell(50, 0, 50)
-data.setCell(50, 1, 'logintest')
-data.setCell(50, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(50, 3, 1);
-data.setCell(51, 0, 51)
-data.setCell(51, 1, 'logintest')
-data.setCell(51, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(51, 3, 1);
-data.setCell(52, 0, 52)
-data.setCell(52, 1, 'logintest')
-data.setCell(52, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(52, 3, 1);
-data.setCell(53, 0, 53)
-data.setCell(53, 1, 'logintest')
-data.setCell(53, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(53, 3, 1);
-data.setCell(54, 0, 54)
-data.setCell(54, 1, 'logintest')
-data.setCell(54, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(54, 3, 1);
-data.setCell(55, 0, 55)
-data.setCell(55, 1, 'logintest')
-data.setCell(55, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(55, 3, 1);
-data.setCell(56, 0, 56)
-data.setCell(56, 1, 'logintest')
-data.setCell(56, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(56, 3, 1);
-data.setCell(57, 0, 57)
-data.setCell(57, 1, 'logintest')
-data.setCell(57, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(57, 3, 1);
-data.setCell(58, 0, 58)
-data.setCell(58, 1, 'logintest')
-data.setCell(58, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(58, 3, 1);
-data.setCell(59, 0, 59)
-data.setCell(59, 1, 'logintest')
-data.setCell(59, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(59, 3, 1);
-data.setCell(60, 0, 60)
-data.setCell(60, 1, 'logintest')
-data.setCell(60, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(60, 3, 1);
-data.setCell(61, 0, 61)
-data.setCell(61, 1, 'logintest')
-data.setCell(61, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(61, 3, 1);
-data.setCell(62, 0, 62)
-data.setCell(62, 1, 'logintest')
-data.setCell(62, 2, 'com.balaji.core.utils.UsingTestng2')
-data.setCell(62, 3, 1);
+data.setCell(9, 1, 'testcase2')
+data.setCell(9, 2, 'com.balaji.core.utils.TestCase2')
+data.setCell(9, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <span class="suite-total-time">Total running time: 45 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -1282,20 +412,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.balaji.core.utils.UsingTestng</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">pageLaunch1</span>
-                <br/>
-                <span class="ignored-method-name">pageLaunch5</span>
-                <br/>
-                <span class="ignored-method-name">pageLaunch3</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -1304,293 +423,51 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.balaji.core.utils.ExtentReportwithTestng</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">setup</span>
+              <div class="chronological-class-name">com.balaji.core.utils.TestCase2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testcase1</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.balaji.core.utils.UsingTestng</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">browserLaunch</span>
-                <span class="method-start">5778 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.balaji.core.utils.ExtentReportwithTestng</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">pageLaunch</span>
-                <span class="method-start">9804 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.balaji.core.utils.UsingTestng2</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 1)</span>
-                <span class="method-start">10570 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">logintest(amaz, 2)</span>
-                <span class="method-start">10579 ms</span>
+                <span class="method-name">testcase1</span>
+                <span class="method-start">20 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">logintest(amaz, 3)</span>
-                <span class="method-start">10587 ms</span>
+                <span class="method-name">testcase1</span>
+                <span class="method-start">30 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">logintest(amaz, 4)</span>
-                <span class="method-start">10592 ms</span>
+                <span class="method-name">testcase1</span>
+                <span class="method-start">35 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">logintest(amaz, 5)</span>
-                <span class="method-start">10598 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase1</span>
+                <span class="method-start">45 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">logintest(amaz, 6)</span>
-                <span class="method-start">10602 ms</span>
+                <span class="method-name">testcase2</span>
+                <span class="method-start">50 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">logintest(amaz, 7)</span>
-                <span class="method-start">10607 ms</span>
+                <span class="method-name">testcase2</span>
+                <span class="method-start">60 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">logintest(amaz, 8)</span>
-                <span class="method-start">10612 ms</span>
+                <span class="method-name">testcase2</span>
+                <span class="method-start">65 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">logintest(amaz, 9)</span>
-                <span class="method-start">10618 ms</span>
+                <span class="method-name">testcase2</span>
+                <span class="method-start">70 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">logintest(amaz, 10)</span>
-                <span class="method-start">10623 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase2</span>
+                <span class="method-start">75 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 11)</span>
-                <span class="method-start">10629 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 1)</span>
-                <span class="method-start">10705 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 2)</span>
-                <span class="method-start">10709 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 3)</span>
-                <span class="method-start">10713 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 4)</span>
-                <span class="method-start">10718 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 5)</span>
-                <span class="method-start">10722 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 6)</span>
-                <span class="method-start">10726 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 7)</span>
-                <span class="method-start">10730 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 8)</span>
-                <span class="method-start">10734 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 9)</span>
-                <span class="method-start">10747 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 10)</span>
-                <span class="method-start">10750 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 11)</span>
-                <span class="method-start">10753 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 1)</span>
-                <span class="method-start">10794 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 2)</span>
-                <span class="method-start">10799 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 3)</span>
-                <span class="method-start">10803 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 4)</span>
-                <span class="method-start">10806 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 5)</span>
-                <span class="method-start">10809 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 6)</span>
-                <span class="method-start">10814 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 7)</span>
-                <span class="method-start">10817 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 8)</span>
-                <span class="method-start">10820 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 9)</span>
-                <span class="method-start">10822 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 10)</span>
-                <span class="method-start">10826 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 11)</span>
-                <span class="method-start">10829 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 1)</span>
-                <span class="method-start">10920 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 2)</span>
-                <span class="method-start">10923 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 3)</span>
-                <span class="method-start">10926 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 4)</span>
-                <span class="method-start">10930 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 5)</span>
-                <span class="method-start">10935 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 6)</span>
-                <span class="method-start">10945 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 7)</span>
-                <span class="method-start">10951 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 8)</span>
-                <span class="method-start">10962 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 9)</span>
-                <span class="method-start">10965 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 10)</span>
-                <span class="method-start">10970 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 11)</span>
-                <span class="method-start">10975 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 1)</span>
-                <span class="method-start">11028 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 2)</span>
-                <span class="method-start">11031 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 3)</span>
-                <span class="method-start">11036 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 4)</span>
-                <span class="method-start">11039 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 5)</span>
-                <span class="method-start">11041 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 6)</span>
-                <span class="method-start">11043 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 7)</span>
-                <span class="method-start">11045 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 8)</span>
-                <span class="method-start">11048 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 9)</span>
-                <span class="method-start">11051 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 10)</span>
-                <span class="method-start">11054 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logintest(amaz, 11)</span>
-                <span class="method-start">11061 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.balaji.core.utils.ExtentReportwithTestng</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">test</span>
-                <span class="method-start">24402 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.balaji.core.utils.UsingTestng</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">pageLaunch2</span>
-                <span class="method-start">24416 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">pageLaunch2</span>
-                <span class="method-start">33288 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">pageLaunch2</span>
-                <span class="method-start">33714 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">pageLaunch2</span>
-                <span class="method-start">34189 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">pageLaunch2</span>
-                <span class="method-start">34895 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">pageLaunch</span>
-                <span class="method-start">36577 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">quit</span>
-                <span class="method-start">62028 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.balaji.core.utils.ExtentReportwithTestng</div> <!-- chronological-class-name -->
-              <div class="configuration-suite after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">63839 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
